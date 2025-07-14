@@ -55,7 +55,7 @@ Statyczna biblioteka libsignon-qt.
 
 %prep
 %setup -q -n signond-VERSION_%{version}-aa1bcf3c9218addbdb376a40151b689409046125
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 #install -d build-qt5
